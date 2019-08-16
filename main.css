@@ -1,0 +1,18 @@
+.white-cell {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+.black-cell {
+    background-color: #000;
+}
+
+.revert-cell-color .white-cell {
+    background-color: #000;
+}
+
+.revert-cell-color .black-cell {
+    background-color: #fff;
+}
